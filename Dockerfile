@@ -9,7 +9,7 @@ FROM python:3.9-slim-bullseye
 LABEL MAINTAINER PLATTAR(www.plattar.com)
 
 # our binary versions where applicable
-ENV USD_VERSION="22.05b"
+ENV USD_VERSION="23.11"
 
 # Update the environment path for Pixar USD
 ENV USD_BUILD_PATH="/usr/src/app/xrutils/usd"
